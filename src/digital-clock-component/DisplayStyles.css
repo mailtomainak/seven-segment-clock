@@ -1,0 +1,65 @@
+.display{
+    height: 20px;
+  
+}
+
+.display div{
+    position: absolute;   
+    float: left; 
+    
+}
+
+.gapA{
+    max-width:50px;
+    width:50px;
+}
+.segment {
+    height: 15px;
+    width: 5px;
+    background-color: #000;
+    border-radius: 9999px;    
+    margin:0px;
+  }
+    
+  .A {
+    position: relative;
+    top:-10px;
+    left:10px;
+    transform: rotate(90deg);
+  }
+  .B {
+    position: relative;
+    left:20px;
+    
+  }
+  .C {
+    position: relative;
+    top:20px;
+    left:20px;
+       
+  }
+  .D {
+    position: relative;
+    top:30px;
+    left:10px;
+    transform: rotate(90deg);
+  }
+  .E {
+    position: relative;
+    top:20px;
+    
+    
+  }
+  .F {
+    position: relative;  
+  }
+  .G {
+    position: relative;
+    top:10px;
+    left:10px;
+    transform: rotate(90deg);
+  }
+
+  td, th {
+        padding: 20px;
+}
